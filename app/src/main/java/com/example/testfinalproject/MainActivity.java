@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -143,6 +144,9 @@ public class MainActivity extends AppCompatActivity {
         editTextСategory = constraintLayout.findViewById(R.id.editTextСategory);
         editTextResult = constraintLayout.findViewById(R.id.editTextResult);
         saveEventButton = constraintLayout.findViewById(R.id.saveEventButton);
+
+
+
         saveEventButton.setOnClickListener( v-> {
 
 

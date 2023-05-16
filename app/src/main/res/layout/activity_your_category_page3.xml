@@ -57,7 +57,7 @@
 
     <Spinner
         android:id="@+id/categoryRunEditTextPage3"
-        android:layout_width="219dp"
+        android:layout_width="239dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
